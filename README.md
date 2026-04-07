@@ -37,8 +37,16 @@ Pre-requisito: Docker e Docker Compose instalados.
    docker compose --profile test run --rm tests
 ```
 
-### Regras de Negócio Testadas
+---
 
+### Regras de Negócio Testadas
+- O projeto deve gerenciar um inventário de produtos em um dataset.
+- Cada produto é representado por nome, preço e quantidade.
+- Deve ser possível cadastrar um produto, atualizar a quantidade de um produto existente e remover um produto pelo nome.
+
+---
+
+### Cobertura de Testes
 1. Cobertura por arquivo
 
    <img width="750" height="384" alt="image" src="https://github.com/user-attachments/assets/373ecb79-cd0d-4754-98ef-3076b37d5668" />
