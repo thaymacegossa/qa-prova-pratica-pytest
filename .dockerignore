@@ -1,0 +1,15 @@
+# Ignora o ambiente virtual local
+venv/
+.venv/
+env/
+
+# Ignora caches do Python
+**/__pycache__/
+*.pyc
+
+# Ignora os livros que você já baixou no seu PC
+resources/books/
+
+# Ignora arquivos do Git
+.git
+.gitignore
